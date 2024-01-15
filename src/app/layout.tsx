@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { Metadata } from "next";
 import Navigation from "./ui/navigation";
 import SocialMediaLinks from "./ui/social-media-links";
+import HeaderLogo from "./ui/header-logo";
 
 export const metadata: Metadata = {
   title: {
@@ -20,14 +21,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="space-y-8 ml-8">
-          <div>
-            <Navigation />
+      <body className="">
+        <div className="">
+          <HeaderLogo />
+          <Navigation />
+        </div>
+        <div className="h-screen">
+          <div className="pt-8 pb-12">
+            {children}
           </div>
-          <div>{children}</div>
-          <div>
-            <SocialMediaLinks />
-          </div>
+          <SocialMediaLinks />
+        </div>
       </body>
     </html>
   );

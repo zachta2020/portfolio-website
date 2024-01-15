@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main>
+    <main className="rounded-2xl bg-white mx-8 p-4">
       <div className="space-y-2">
         <h1>Home Page</h1>
         <p>

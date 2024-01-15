@@ -15,7 +15,7 @@ export default function SocialMediaLinks () {
                         href = {link.href}
                         target = "_blank"
                         rel = "noopener noreferrer"
-                        className = "hover:text-blue"
+                        className = "hover:text-light-blue"
                     >
                         <p>{link.name}</p>
                     </Link>
