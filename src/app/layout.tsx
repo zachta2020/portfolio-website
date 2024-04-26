@@ -3,7 +3,6 @@ import "~/styles/globals.css";
 import { Metadata } from "next";
 import Navigation from "./ui/navigation";
 import SocialMediaLinks from "./ui/social-media-links";
-import HeaderLogo from "./ui/header-logo";
 import { roboto_slab } from "./ui/fonts";
 
 export const metadata: Metadata = {
