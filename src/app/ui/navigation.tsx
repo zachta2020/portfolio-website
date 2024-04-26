@@ -3,7 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import { link } from 'fs';
+import { roboto } from './fonts';
+
 
 type Color = "red" | "green" | "blue" | "none";
 type navLink = {

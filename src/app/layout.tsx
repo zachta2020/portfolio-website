@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import Navigation from "./ui/navigation";
 import SocialMediaLinks from "./ui/social-media-links";
 import HeaderLogo from "./ui/header-logo";
+import { roboto } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: {
@@ -21,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="">
+      <body className={`${roboto.className}`}>
         <div className="">
           <HeaderLogo />
           <Navigation />
