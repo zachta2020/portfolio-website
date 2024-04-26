@@ -6,17 +6,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'red': '#ea333d',
-        'light-red': '#ff8d67',
-        'dark-red': '#be1755',
-        'green': '#75fb79',
-        'light-green': '#e3fbc3',
-        'dark-green': '#4ccd74',
-        'blue': '#4397f7',
-        'light-blue': '#85e0ff', 
-        'dark-blue': '#295bd8',
-        'gray': '#ebebeb',
-        'light-gray': '#f4f4f4',
+        'section-fill': '#3b3272',
+        'section-border': '#2e2759',
+
+        'button-fill-normal': '#594ca8',
+        'button-border-normal': '#433980',
+
+        'light-blue': '#85e0ff',
+        'black': '#000000',
         'white': '#ffffff',
       },
       fontFamily: {
