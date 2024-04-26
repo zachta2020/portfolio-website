@@ -6,11 +6,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        'section-fill': '#3b3272',
-        'section-border': '#2e2759',
+        'deep-purple': '#3b3272',
+        'dark-deep-purple': '#2e2759',
 
-        'button-fill-normal': '#594ca8',
-        'button-border-normal': '#433980',
+        'purple': '#594ca8',
+        'dark-purple': '#433980',
+        'pale-purple': '#a099cc',
+
+        /* 'button-fill-hover': '',
+        'button-border-hover': '',
+        'button-text-hover': '', */
 
         'light-blue': '#85e0ff',
         'black': '#000000',
