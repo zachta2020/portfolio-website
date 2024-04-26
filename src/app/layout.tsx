@@ -25,7 +25,7 @@ export default function RootLayout({
         <div className="">
           <Navigation />
         </div>
-        <div className="h-screen">
+        <div>
           <div className="pt-8 pb-12">
             {children}
           </div>
