@@ -7,8 +7,8 @@ const links = [
 
 export default function SocialMediaLinks() {
     return (
-        <div className="fixed bottom-0 w-full bg-deep-purple border-solid border-t-8 border-dark-deep-purple py-5">
-            <div className="w-full flex justify-center flex-row gap-2">
+        <div className="fixed bottom-0 w-full bg-deep-purple border-solid border-b-8 border-dark-deep-purple py-5">
+            <div className="w-full flex justify-center flex-row gap-3">
                 {links.map((link) => {
                     return (
                         <Link
