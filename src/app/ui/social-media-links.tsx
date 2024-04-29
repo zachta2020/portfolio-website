@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
 const links = [
-    { name: "Github", href: "https://github.com/zachta2020" },
+    { name: "GitHub", href: "https://github.com/zachta2020" },
     { name: "LinkedIn", href: "https://www.linkedin.com/in/zachary-anderson-6101461b5/" }
 ]
 
 export default function SocialMediaLinks() {
     return (
-        <div className="fixed bottom-0 w-full bg-deep-purple border-solid border-b-8 border-dark-deep-purple py-5">
+        <div className="w-full bg-deep-purple border-solid border-b-8 border-dark-deep-purple py-5">
             <div className="w-full flex justify-center flex-row gap-3">
                 {links.map((link) => {
                     return (

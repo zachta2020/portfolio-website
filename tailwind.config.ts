@@ -13,11 +13,6 @@ export default {
         'dark-purple': '#433980',
         'pale-purple': '#a099cc',
 
-        /* 'button-fill-hover': '',
-        'button-border-hover': '',
-        'button-text-hover': '', */
-
-        'light-blue': '#85e0ff',
         'black': '#000000',
         'white': '#ffffff',
       },
