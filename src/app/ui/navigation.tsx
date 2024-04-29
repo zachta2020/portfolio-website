@@ -28,6 +28,9 @@ const links: navLink[] = [
 export default function Navigation() {
   const pathname = usePathname();
 
+  const defaultState = "w-40 py-2 rounded-3xl bg-purple border-solid border-b-4 border-dark-purple text-center text-2xl text-white hover:bg-pale-purple hover:border-purple hover:text-white"
+  const selectedState = "w-40 py-2 rounded-3xl bg-white border-solid border-b-4 border-pale-purple text-center text-2xl text-purple hover:bg-white hover:border-pale-purple hover:text-purple"
+
   return (
     <div className="flex flex-row bg-deep-purple border-solid border-b-8 border-dark-deep-purple p-5 shadow-lg">
       <Link
@@ -43,11 +46,7 @@ export default function Navigation() {
             <Link
               key={link.name}
               href={link.href}
-              className={clsx("w-40 py-2 rounded-3xl bg-purple border-solid border-b-4 border-dark-purple text-center text-2xl text-white hover:bg-pale-purple hover:border-purple hover:text-white",
-                {
-                  "bg-white border-pale-purple text-purple hover:bg-white hover:border-pale-purple hover:text-purple": pathname == link.href
-                },
-              )}
+              className={pathname == link.href ? selectedState : defaultState}
             >
               <p>{link.name}</p>
             </Link>

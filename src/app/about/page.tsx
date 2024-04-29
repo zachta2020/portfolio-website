@@ -9,9 +9,9 @@ export default function Page() {
         <main className="flex flex-col gap-10 mx-40 my-10">
             <div>
                 <h1 className="text-5xl font-bold">Background</h1>
-                <div className="text-2xl mt-6">
+                <div className="text-2xl mt-6 flex flex-col gap-4">
                     <p>Hello, my name is Zachary Thomas Anderson, and I'm a Software Developer with background in both IT and Cybersecurity.</p>
-                    <p className="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero urna, auctor non tempus at, congue sit amet sapien.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero urna, auctor non tempus at, congue sit amet sapien.
                         In pretium risus at leo condimentum, in molestie neque posuere. Suspendisse a eros bibendum, tincidunt tellus et, accumsan massa. Duis pharetra tincidunt varius. Duis nec dolor condimentum,
                         volutpat est eget, elementum purus. Aliquam erat volutpat. Vestibulum sit amet pulvinar dui. Nam et odio orci.</p>
                 </div>
