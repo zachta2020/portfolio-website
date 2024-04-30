@@ -18,23 +18,23 @@ export default function Contact() {
     return (
         <div className="mx-32">
             <form /* onSubmit={handleSubmit} */ className="p-8 rounded-3xl bg-deep-purple border-solid border-b-8 border-dark-deep-purple">
-                <p className="text-5xl text-white">Contact</p>
-                <div className="my-4 flex flex-col w-500">
-                    <label htmlFor="form-name" className="text-white text-2xl">Name</label>
-                    <input id="form-name" autoComplete="name" maxLength={50} /* size="lg" */ name="name"
-                        className="rounded-lg border-solid border-2 border-pale-purple text-black text-2xl" />
+                <p className="font-bold text-5xl text-white">Contact</p>
+                <div className="my-6 flex flex-col gap-4 w-500">
+                    {/* <label htmlFor="form-name" className="text-white text-2xl">Name</label> */}
+                    <input id="form-name" autoComplete="name" maxLength={50} /* size="lg" */ name="name" placeholder="Name"
+                        className="px-4 rounded-lg border-solid border-2 border-pale-purple text-black text-2xl focus:outline-purple placeholder:text-pale-purple" />
 
-                    <label htmlFor="form-email" className="text-white text-2xl">Email:</label>
-                    <input id="form-email" required autoComplete="email" maxLength={80} name="email" type="email"
-                        className="rounded-lg border-solid border-2 border-pale-purple text-black text-2xl" />
+                    {/* <label htmlFor="form-email" className="text-white text-2xl">Email:</label> */}
+                    <input id="form-email" required autoComplete="email" maxLength={80} name="email" type="email" placeholder="Email"
+                        className="px-4 rounded-lg border-solid border-2 border-pale-purple text-black text-2xl focus:outline-purple placeholder:text-pale-purple" />
 
-                    <label htmlFor="form-subject" className="text-white text-2xl">Subject</label>
-                    <input id="form-subject" maxLength={80} name="subject"
-                        className="rounded-lg border-solid border-2 border-pale-purple text-black text-2xl" />
+                    {/* <label htmlFor="form-subject" className="text-white text-2xl">Subject</label> */}
+                    <input id="form-subject" maxLength={80} name="subject" placeholder="Subject"
+                        className="px-4 rounded-lg border-solid border-2 border-pale-purple text-black text-2xl focus:outline-purple placeholder:text-pale-purple" />
 
-                    <label htmlFor="form-message" className="text-white text-2xl"> Message: </label>
-                    <textarea id="form-message" required name="message" rows={5}
-                        className="rounded-lg border-solid border-2 border-pale-purple text-black text-2xl" />
+                    {/* <label htmlFor="form-message" className="text-white text-2xl"> Message: </label> */}
+                    <textarea id="form-message" required name="message" rows={5} placeholder="Message"
+                        className="px-4 rounded-lg border-solid border-2 border-pale-purple text-black text-2xl focus:outline-purple placeholder:text-pale-purple" />
 
                 </div>
                 <button
